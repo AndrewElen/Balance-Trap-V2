@@ -11,7 +11,7 @@ Balance Trap V2 monitors the balances of Ethereum addresses and, upon detecting 
 
 ## ⚙️ Installation and Setup
 
-### 1. Clone the repository
+###  Clone the repository
 ```bash
 git clone https://github.com/AndrewElen/Balance-Trap-V2.git
 cd Balance-Trap-V2
