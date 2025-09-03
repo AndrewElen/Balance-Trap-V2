@@ -10,6 +10,7 @@
 ## 📌 Project Description
 Balance Trap V2 monitors the balances of Ethereum addresses and, upon detecting **balance changes of 2% or more**, calls the `saveAlert(string)` function on the receiver contract (`LogAlertReceiver`). This allows real-time alerts for events that require attention.
 
+---
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -42,8 +43,6 @@ contract BalanceTrapV2 is ITrap {
         return (false, "");
     }
 }
-
----
 
 ## ⚙️ Installation and Setup
 
