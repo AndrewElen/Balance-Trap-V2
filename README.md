@@ -108,5 +108,5 @@ Ethers.js
  — Ethereum JavaScript library
 ## Скриншоты
 
-![Скрин 1](./screenshot1.png)
-![Скрин 2](./screenshot2.png)
+![Скрин 1](https://github.com/AndrewElen/Balance-Trap-V2/raw/main/screenshot1.png)
+![Скрин 2](https://github.com/AndrewElen/Balance-Trap-V2/raw/main/screenshot2.png)
