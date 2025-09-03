@@ -10,6 +10,39 @@
 ## 📌 Project Description
 Balance Trap V2 monitors the balances of Ethereum addresses and, upon detecting **balance changes of 2% or more**, calls the `saveAlert(string)` function on the receiver contract (`LogAlertReceiver`). This allows real-time alerts for events that require attention.
 
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+interface ITrap {
+    function collect() external returns (bytes memory);
+    function shouldRespond(bytes[] calldata data) external view returns (bool, bytes memory);
+}
+
+contract BalanceTrapV2 is ITrap {
+    address public constant target = 0xd1b3Dd4C3442d24105550886Fd6EB38dD9592356; // замени на адрес своего кошелька
+    uint256 public constant thresholdPercent = 2; // отслеживаем изменения от 2%
+
+    function collect() external override returns (bytes memory) {
+        return abi.encode(target.balance);
+    }
+
+    function shouldRespond(bytes[] calldata data) external view override returns (bool, bytes memory) {
+        if (data.length < 2) return (false, "Insufficient data");
+
+        uint256 current = abi.decode(data[0], (uint256));
+        uint256 previous = abi.decode(data[1], (uint256));
+
+        uint256 diff = current > previous ? current - previous : previous - current;
+        uint256 percent = (diff * 100) / previous;
+
+        if (percent >= thresholdPercent) {
+            return (true, "");
+        }
+
+        return (false, "");
+    }
+}
+
 ---
 
 ## ⚙️ Installation and Setup
