@@ -107,6 +107,6 @@ Forge
 Ethers.js
  — Ethereum JavaScript library
 
-[Смотреть скриншоты](./SCREENSHOTS.md)
-
+screenshot1.png
+screenshot2.png
 
