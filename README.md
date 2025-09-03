@@ -110,5 +110,8 @@ Forge
 Ethers.js
  — Ethereum JavaScript library
 
-<img width="1836" height="961" alt="screenshot2" src="https://github.com/user-attachments/assets/5af24372-36f6-4e69-885d-d8ad7a8b7c78" />
-<img width="1918" height="1023" alt="screenshot1" src="https://github.com/user-attachments/assets/f3ff6b9e-a15e-479a-9b0c-a3e90699b237" />
+## Скриншоты
+
+![Скрин 1](./screenshot1.png)
+![Скрин 2](./screenshot2.png)
+
