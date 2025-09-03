@@ -107,10 +107,9 @@ Forge
 Ethers.js
  — Ethereum JavaScript library
 
-## Скриншоты
+![Снимок экрана от 2025-09-02 12-20-44](https://github.com/AndrewElen/Balance-Trap-V2/raw/main/Снимок%20экрана%20от%202025-09-02%2012-20-44.png)
 
-![Снимок экрана от 2025-09-02 12-20-44](https://github.com/user-attachments/assets/c9b8e42d-c418-4fcc-8208-9d3632ba7204)
+![Снимок экрана от 2025-09-02 12-13-44](https://github.com/AndrewElen/Balance-Trap-V2/raw/main/Снимок%20экрана%20от%202025-09-02%2012-13-44.png)
 
-![Снимок экрана от 2025-09-02 12-13-44](https://github.com/user-attachments/assets/5b9d051f-1aac-417e-9268-f6b40c06de91)
 
 
